@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./iconmoon/svg/headphones.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Bateria da sarah</title>
+</head>
+<body>
+    <h1>Bateria Feita no SESI-SENAI</h1>
+     <!-- inicio da caixa principal da bateria -->
+     <div class="keys">
+         <!-- inicio div primeira fileira -->
+         <div class="key" data-key="keyq">Q</div>
+         <div class="key" data-key="keyw">W</div>
+         <div class="key" data-key="keye">E</div>
+         <!-- fim da div primeira fileira -->
+        
+         <!-- inicio da segunda div fileira -->
+         <div class="key" data-key="keyq">A</div>
+         <div class="key" data-key="keyq">S</div>
+         <div class="key" data-key="keyq">D</div>
+         <!-- fim da div segunda fileira -->
+
+         <!-- inicio da terceira div fileira -->
+         <div class="key" data-key="keyq">Z</div>
+         <div class="key" data-key="keyq">X</div>
+         <div class="key" data-key="keyq">C</div>
+         <!-- fim da div terceira fileira -->
+
+    </div>
+    <!-- fim da caixa principal da bateria -->
+
+    <!-- inicio daixa segundaria - composições -->
+    <div class="composer">
+      <!--inserir composições -->
+     <input type="text" id="input" placeholder="FAÇA SUA COMPOSIÇÃO">
+     <button>Aplicar o ritmo</button>
+    </div>
+    <!-- fim caixa segundaria - composições -->
+
+    <!-- inicio rodapé caixa do footer -->
+    <foote>Desenvolvido Jonathas Maciel e Carlos Wilton</foote> 
+    <!-- fim rodapé caixa do footer -->
+
+    <!-- == tag de áudio - irão corrigir com 35 == -->
+
+    <!-- inicio tag de áudio da primeira fileira -->
+    <audio src="./sounds/keyq.way" id="s_keyq"></audio>
+    <audio src="./sounds/keyw.way" id="s_keyw"></audio>
+    <audio src="./sounds/keye.way" id="s_keye"></audio>
+    <!-- fim tag de áudio da primeira fileira -->
+
+    <!-- inicio tag de áudio da segunda fileira -->
+    <audio src="./sounds/keya.way" id="s_keya"></audio>
+    <audio src="./sounds/keys.way" id="s_keys"></audio>
+    <audio src="./sounds/keyd.way" id="s_keyd"></audio>
+    <!-- fim tag de áudio da segunda fileira -->
+
+    <!-- inicio tag de áudio da segunda fileira -->
+    <audio src="./sounds/keyz.way" id="s_keyz"></audio>
+    <audio src="./sounds/keyx.way" id="s_keyx"></audio>
+    <audio src="./sounds/keyc.way" id="s_keyc"></audio>
+    <!-- fim tag de áudio da segunda fileira -->
+
+    <script src="./javascript/script.js"></script>
+
+</body>
+</html>
